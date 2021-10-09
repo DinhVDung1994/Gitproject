@@ -1,0 +1,26 @@
+
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: gray;
+}
+table.vien, th.vien, td.vien{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table.width{
+    width: 630px;
+}
+td {
+    padding: 5px;
+}
+td.mau{
+    color: blue;
+}
+tr.mauthu{
+    background-color: yellow;
+}
+td.trang{
+background-color: white;
+}
