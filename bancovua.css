@@ -1,0 +1,26 @@
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tr{
+    border: 1px solid black;
+    height: 80px;
+}
+tr:nth-child(even){
+    border: 1px solid black;
+    height: 80px;
+    background-color: #d61b06;
+}
+td{
+    border: 1px solid black;
+    width: 80px;
+}
+td:nth-child(even){
+    border: 1px solid black;
+    width: 80px;
+    background-color: #d61b06;
+}
+td.otrang{
+    background-color: white;
+}
